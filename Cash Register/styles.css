@@ -1,0 +1,165 @@
+/* Body design */
+
+body {
+    background-color: #2B3133;
+    color: white;
+    font-size: 1rem; 
+}
+
+#change-due {
+    text-align: center;
+    word-wrap: break-word; 
+}
+
+.heading {
+    text-align: center;
+    padding-top: 2rem;  
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 5rem;  
+}
+  
+label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+input {
+    margin-top: 1rem; 
+    padding: 8px;
+    width: 200px;
+  }
+ 
+  /* Button */
+
+#purchase-btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1em;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#purchase-btn:hover {
+    background-color: #146118;  
+}
+
+#purchase-btn:active {
+    background-color: #042b06;  
+    color: black;
+    margin-bottom: 10em;
+}
+
+/* Cash Register */
+
+#cid-display {
+    background-color: white;
+    color: black;
+    padding: 5%;  
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%; 
+    margin: auto;
+    word-wrap: break-word; 
+    border: 0.6rem solid #505e63;
+  }
+  
+.upper-bar {
+    width: 100%;
+    background-color: #225922;
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+.total {
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #2c2f2c;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  /* Cash Register Circle Button */
+
+.circle-button {
+    width: 4vw;            
+    height: 4vw;           
+    border-radius: 50%;     
+    background-color: white;
+    border: none;
+}
+
+/* Media Queries */
+
+ @media (min-width:1024px) {
+    .outer-div {
+        max-width:500px;
+        margin: auto;}
+
+        .circle-button {
+            width: 2vw;            
+            height: 2vw;           
+            border-radius: 50%;     
+            background-color: white;
+            border: none;
+        }
+
+ }
+
+ @media (max-width:1024px) {
+    .outer-div {
+        max-width:500px;
+        margin: auto;}
+    
+        .circle-button {
+            width: 4vw;            
+            height: 4vw;           
+            border-radius: 50%;     
+            background-color: white;
+            border: none;
+        }
+        
+
+ }
+
+ @media (min-width:246px) {
+    .outer-div {
+        max-width:500px;
+        margin: auto;}
+
+ }
+
+ @media (max-width: 768px) {
+    .upper-bar {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .upper-bar {
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .total {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* 📱 Mobile */
+  @media (max-width: 480px) {
+    .total {
+      padding: 1rem;
+    }
+  }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Cash Register</title>
+    </head>
+    <body>
+        <h1 class="heading">Cash Register <br>Project</h1>
+        <div id="change-due"></div> <!-- this is where the change will be displayed-->
+        <div class="outer-div">
+            <div class="input-section">
+                <label for="cash">Enter cash from customer:</label> <!-- input for customer's cash-->
+                <input id="cash" type="number">
+                <button id="purchase-btn">Purchase</button> <!-- Purchase button  to display result-->
+            </div>
+            <div id="cid-display">
+                <div class="upper-bar">
+                    <button class="circle-button"></button>
+                </div>
+                <div class="total">Total: $1.87</div>
+                <p>Change in drawer</p>
+            </div>
+        </div>
+        
+        <script src="./script.js"></script>
+    </body>
+</html>
